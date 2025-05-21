@@ -76,4 +76,8 @@ ul {
     display: block;
     margin: auto; 
   }
+
+  body {
+    padding: 10px;
+  }
 }
