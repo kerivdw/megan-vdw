@@ -38,7 +38,6 @@ h2 {
 .contact-info {
   text-align: center;
   margin: 20px 0;
-  border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
 
@@ -67,5 +66,14 @@ ul {
 @media screen and (max-width: 600px) {
   .cv-columns {
     flex-direction: column-reverse;
+  }
+
+  img {
+    width: 50%;
+    height: auto; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    display: block;
+    margin: auto; 
   }
 }
