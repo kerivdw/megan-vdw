@@ -52,7 +52,6 @@ h2 {
   flex: 1;
   min-width: 250px;
   padding: 20px;
-  background-color: #FF6B6;
 }
 
 h3 {
@@ -67,6 +66,6 @@ ul {
 
 @media screen and (max-width: 600px) {
   .cv-columns {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
